@@ -1,5 +1,5 @@
 import path from 'path';
-import { FlyTooltip, Button } from 'local-components';
+import { FlyTooltip, Button } from '@getflywheel/local-components';
 
 export default function (context) {
 
