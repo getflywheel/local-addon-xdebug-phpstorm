@@ -1,0 +1,31 @@
+{
+	"name": "local-addon-xdebug-phpstorm",
+	"productName": "Xdebug + PhpStorm",
+	"version": "1.0.1",
+	"description": "One-click configurator for Xdebug + PhpStorm.",
+	"renderer": "lib/renderer.js",
+	"icon": "icon.svg",
+	"bgColor": "#eff5fb",
+	"author": "Flywheel <engineering@getflywheel.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "babel src -d lib"
+	},
+	"devDependencies": {
+		"@babel/cli": "^7.0.0",
+		"@babel/core": "^7.0.0",
+		"@babel/preset-env": "^7.0.0",
+		"@babel/preset-react": "^7.0.0",
+		"@getflywheel/eslint-config-local": "1.0.4",
+		"babel-eslint": "^10.0.1",
+		"eslint": "^5.0.0",
+		"eslint-plugin-import": "^2.14.0",
+		"eslint-plugin-react": "^7.11.1"
+	},
+	"dependencies": {
+		"local-components": "https://github.com/getflywheel/local-components.git"
+	},
+	"bundledDependencies": [
+		"local-components"
+	]
+}

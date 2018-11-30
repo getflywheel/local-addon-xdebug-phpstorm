@@ -1,0 +1,12 @@
+{
+	"presets": [
+		["@babel/preset-env", {
+			"targets": {
+				"electron": "2.0",
+				"node": "8.0"
+			}
+		}],
+		"@babel/preset-react"
+	],
+	"plugins": []
+}
