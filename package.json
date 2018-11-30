@@ -24,9 +24,9 @@
 		"eslint-plugin-react": "^7.11.1"
 	},
 	"dependencies": {
-		"local-components": "https://github.com/getflywheel/local-components.git"
+		"@getflywheel/local-components": "^6.0.0"
 	},
 	"bundledDependencies": [
-		"local-components"
+		"@getflywheel/local-components"
 	]
 }
