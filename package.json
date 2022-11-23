@@ -1,7 +1,7 @@
 {
 	"name": "local-addon-xdebug-phpstorm",
 	"productName": "Xdebug + PhpStorm",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "One-click configurator for Xdebug + PhpStorm.",
 	"renderer": "lib/renderer.js",
 	"main": "lib/main.js",
@@ -15,14 +15,14 @@
 		"prepare": "npm run build"
 	},
 	"devDependencies": {
-		"@getflywheel/local": "^5.2.1",
+		"@getflywheel/local": "^6.6.0",
 		"@types/electron": "^1.6.10",
 		"@types/fs-extra": "^8.0.1",
 		"@types/jsdom": "^12.2.4",
 		"typescript": "^3.7.5"
 	},
 	"dependencies": {
-		"@getflywheel/local-components": "^12.1.0",
+		"@getflywheel/local-components": "^17.6.2",
 		"fs-extra": "^8.1.0",
 		"jsdom": "^16.0.1",
 		"react": "^16.12.0",
@@ -37,6 +37,6 @@
 		"uuid"
 	],
 	"engines": {
-		"local-by-flywheel": "^5.2.0"
+		"local-by-flywheel": "^6.5.2"
 	}
 }
