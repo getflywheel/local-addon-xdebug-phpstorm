@@ -2,7 +2,7 @@
 
 Local now supports PhpStorm's [zero-config debugging](https://www.jetbrains.com/help/phpstorm/zero-configuration-debugging.html). 🎉
 
-See the [official docs on using Xdebug in Local with PhpStorm](https://localwp.com/help-docs/use-xdebug-in-local-with-phpstorm/).
+See the [official docs on using Xdebug in Local with PhpStorm](https://localwp.com/help-docs/local-features/use-xdebug-in-local-with-phpstorm/).
 
 # Local Add-on: Xdebug + PhpStorm [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/getflywheel/local-addon-volumes/pulls/)
 
